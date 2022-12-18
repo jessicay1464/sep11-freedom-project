@@ -49,7 +49,7 @@ const level = addLevel(LEVELS[levelIdx || 0], {
 ```
 In this code above, I learned that we can convert into a code into a symbol. I learned that with this symbol, we can build out own sprite and own game and make a scene out of it. It would then come out of a scene such as 
 ```js
-[
+    [
 		"@  ^ $$ >",
 		"=========",
 	],
@@ -59,7 +59,7 @@ In this code above, I learned that we can convert into a code into a symbol. I l
 	],
 ]
 ```
-With what I learn now, I have been only using the sprites inside the kaboomjs weebsite itself and I hope I would learn and make my own sprites and make my own little game during the winter break.
+With what I learn now, I have been only using the sprites inside the [Kaboom](kaboomjs.com) website itself. In the example above, each bracket inside means their own scene, so in level one, if the user passed level one, they would then go to level two, that is also the second bracket. This also notify the idea of `scene` and `level`. Later on, I would learn and make my own sprites and import it to my tinkering. 
 
 #### My Goals for Winter Break
 During winter break, I want to spend more time with my family and friends and also have a good rest and not think about homework for a few days. I hope that I can use my time to catch up in any missing lessons, not only on Javascript (SEP 11) but my AP classes during this ten day break. I also want to use this time to improve myself in certain skill such as reducing the amount of procastinating and using my time wisely ad making myslef mre productive, such as spending more time outside than at home.
