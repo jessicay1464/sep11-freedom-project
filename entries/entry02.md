@@ -12,6 +12,7 @@ Starting November 28th, I learned my tool by watching through the YouTube tutori
  * `loadSprite()`// it helps load a sprite
 The differnce between a `add` and `load` is that `load` is similar to calling after you `add` it.<br> 
 Adding on the `pos(x, y)`, it randomly selects a postion unless you provide an actual number or value. Adding on, `pos (center())` makes the sprite in the center.<br>
+But learning these code, I was able to import my learnings into my code and cretaed my own file, and tinkering such as adding the sprite and the text.
 I also learned the code of 
 ```js
 onKeyDown("left", () => {
@@ -62,7 +63,7 @@ In this code above, I learned that we can convert into a code into a symbol. It 
 	],
 ]
 ```
-With what I learn now, I have been only using the sprites inside the [Kaboom](kaboomjs.com) website itself. In the example above, each bracket inside means their own scene, so in level one, if the user passed level one, they would then go to level two, that is also the second bracket. This also notify the idea of `scene` and `level`. Later on, I would learn and make my own sprites and import it to my tinkering. 
+With what I learn now, I have been only using the sprites inside the [Kaboom](kaboomjs.com) website itself. In the example above, each bracket inside means their own scene, so in level one, if the user passed level one, they would then go to level two, that is also the second bracket. This also notify the idea of `scene` and `level`. Later on, I would learn and make my own sprites and import it to my tinkering in my ide. 
 
 #### My Goals for Winter Break
 During winter break, I want to spend more time with my family and friends and also have a good rest and not think about homework for a few days. I hope that I can use my time to catch up in any missing lessons, not only on Javascript (SEP 11) but my AP classes during this ten day break. I also want to use this time to improve myself in certain skill such as reducing the amount of procastinating and using my time wisely ad making myslef mre productive, such as spending more time outside than at home.
