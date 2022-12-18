@@ -53,15 +53,14 @@ const level = addLevel(LEVELS[levelIdx || 0], {
 ```
 In this code above, I learned that we can convert into a code into a symbol. It would be much efficient than writing the link over and over again, espacially when you want to repeat the sprite multiple times. I learned that with this symbol, we can build out our own sprite and own game and make a scene out of it. It would then come out of a scene such as 
 ```js
-    [
-		"@  ^ $$ >",
-		"=========",
-	],
-	[
-		"@   $   >",
-		"=   =   =",
-	],
-]
+[
+	"@  ^ $$ >",
+	"=========",
+],
+[
+	"@   $   >",
+	"=   =   =",
+] ...
 ```
 With what I learn now, I have been only using the sprites inside the [Kaboom](kaboomjs.com) website itself. In the example above, each bracket inside means their own scene, so in level one, if the user passed level one, they would then go to level two, that is also the second bracket. This also notify the idea of `scene` and `level`. Later on, I would learn and make my own sprites and import it to my tinkering in my ide. 
 
