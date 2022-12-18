@@ -44,27 +44,23 @@ const level = addLevel(LEVELS[levelIdx || 0], {
         solid(),
         origin("bot"),
     ],
-    "$": () => [
-        sprite("coin"),
-        area(),
-        origin("bot"),
-        "coin",
-    ],
-    "^": () => [
-        sprite("spike"),
-        area(),
-        origin("bot"),
-        "danger",
-    ],
-    ">": () => [
-        sprite("portal"),
-        area(),
-        origin("bot"),
-        "portal",
-    ],
-})
+    ...
+    })
 ```
-In this code above, I learned that we can convert into a 
+In this code above, I learned that we can convert into a code into a symbol. I learned that with this symbol, we can build out own sprite and own game and make a scene out of it. It would then come out of a scene such as 
+```js
+[
+		"@  ^ $$ >",
+		"=========",
+	],
+	[
+		"@   $   >",
+		"=   =   =",
+	],
+]
+```
+With what I learn now, I have been only using the sprites inside the kaboomjs weebsite itself and I hope I would learn and make my own sprites and make my own little game during the winter break.
+
 #### My Goals for Winter Break
 During winter break, I want to spend more time with my family and friends and also have a good rest and not think about homework for a few days. I hope that I can use my time to catch up in any missing lessons, not only on Javascript (SEP 11) but my AP classes during this ten day break. I also want to use this time to improve myself in certain skill such as reducing the amount of procastinating and using my time wisely ad making myslef mre productive, such as spending more time outside than at home.
 
