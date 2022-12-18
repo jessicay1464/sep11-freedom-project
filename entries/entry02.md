@@ -2,12 +2,15 @@
 ##### 12/12/22
 
 Connecting back to the last blog, my tool is "[Kaboom](kaboomjs.com)".
-During November 14th, I started setting up my tool for [KABOOM](kaboomjs.com). But before that I started learning how some basic components work. I went to Kaboom's actual website to find out about the starter code and paste it into.<br>
+During November 14th, I started setting up my tool for [KABOOM](kaboomjs.com). But before that I started learning how some basic components work. I went to Kaboom's actual website to find out about the starter code and paste it into my ide. And I started my coding into it based on the documentaries that I learned. Although some failed, but I would have to debug and solve the issue.<br>
 Starting November 28th, I learned my tool by watching through the YouTube tutorials and reading through the documentaries listed down below in "SOURCES". But before actually tinkering with my tool, I needed to make sure that I understood each part. Therefore, I started reading through the documents in the [KABOOM](kaboomjs.com) payground and taking notes in my SEP 11 notes by doing bullet points and understanding what  the different property will work. Such as
  * `pos(x,y)` //the position of "text" and "sprites"
  * `text()` //renders text
  * `sprite()` //sprites images itself
  * `add([])` //can render both texts and sprites
+ * `rotate()` //rotates the sprite
+ * `loadSprite()`// it helps load a sprite
+The differnce between a `add` and `load` is that `load` is similar to calling after you `add` it.<br> 
 Adding on the `pos(x, y)`, it randomly selects a postion unless you provide an actual number or value. Adding on, `pos (center())` makes the sprite in the center.<br>
 I also learned the code of 
 ```js
@@ -47,7 +50,7 @@ const level = addLevel(LEVELS[levelIdx || 0], {
     ...
     })
 ```
-In this code above, I learned that we can convert into a code into a symbol. I learned that with this symbol, we can build out own sprite and own game and make a scene out of it. It would then come out of a scene such as 
+In this code above, I learned that we can convert into a code into a symbol. It would be much efficient than writing the link over and over again, espacially when you want to repeat the sprite multiple times. I learned that with this symbol, we can build out our own sprite and own game and make a scene out of it. It would then come out of a scene such as 
 ```js
     [
 		"@  ^ $$ >",
