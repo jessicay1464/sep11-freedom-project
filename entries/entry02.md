@@ -9,7 +9,8 @@ During November 14th, I started setting up my tool for [KABOOM](kaboomjs.com). B
  * `add([])` //can render both texts and sprites
  * `rotate()` //rotates the sprite
  * `loadSprite()`// it helps load a sprite<br>
-The differnce between a `add` and `load` is that `load` is similar to calling after you `add` it.<br> 
+The differnce between a `add` and `load` is that `load` is similar to calling after you `add` it.
+The format for loading sprite would be `loadSprite("flower", "/sprites/flower.png")`. It first shows the name of the sprite and then provides a link to the sprite (its roadpath).<br>
 Adding on the `pos(x, y)`, it randomly selects a postion unless you provide an actual number or value. Adding on, `pos (center())` makes the sprite in the center.<br>
 But learning these code, I was able to import my learnings into my code and cretaed my own file, and tinkering such as adding the sprite and the text.
 I also learned the code of 
