@@ -35,7 +35,7 @@ player.onCollide("coin", (coin) => {
 An a-ha movement that I found while I was tinkering and reading through the code/documentary was that it is so similar to the code that we have been learning in class about the `javascript`. Such as the structure, such as the increment of a variable,a nd the idea of overwriting code. Similar to the `DOMS` that we have been learning so far.<br>
 To conclude, throughout tinkering, I have met many challenges inside codes,a nd we would have to slowly debug it to help us to understand and get the code better and better.
 
-#### Planning on learning next
+### Planning on learning next
 The next concept that I would learn is how to build and connect the second scene together or multiple scene together. Since now, I know how to create one scene, it would be fun and interesting to create the next one. For instance, if I would want to create a scoreboard at the end of the game, it would bring the user there, but if the user loses, it would bring to the scene to "YOU LOSE" an the button for try again. Therefore, it can make the game more interactive. Furthermore, I would like to add on how I want to learn how we can connect the keys on the keyboard to control the sprites added and uploaded on the screen. As if, "How can I connect this together?" I learned most of the small pieces, so how would I connect the "little pieces" together.
 
 ### Skills
