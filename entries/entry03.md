@@ -11,6 +11,10 @@ Two skills that I have learned while tinkering with my tool is collaboration and
 ### EDP (Engineering Design Process)
 Now, I am still on the step of "Researching the problem." This was because I am still learning my tool and how to use it. As from before, I know what my tool is, and I was able to define my problem, I am still in the process of learning on how my tool should work and learning the differnt concepts about it. Also, when coming across the code or concept that I didn't understand in the code before, I would have to research on google, or even ask for help cause in the website, we would have to come up with issues, but there isn't any explanations, but just a code and how it works, so it would be very helpful to have videos and different sources to help us with something when we don't understand it.
 
+### Sources
+ * [Flappy Bird](https://www.youtube.com/watch?v=hgReGsh5xVU)
+ * Building [Scenes](https://kaboomjs.com/play?demo=scenes) with kaboom
+ 
 [Previous](entry02.md) | [Next](entry04.md)
 
 [Home](../README.md)
