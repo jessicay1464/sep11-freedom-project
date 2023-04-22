@@ -8,7 +8,7 @@
 Now, we are in Step 5, creating a prototype of the EDP, the Engineering Design Process. After we finished learning our tool, we have been starting to use what we learn to build our MVP, the minimum viable product. We build an adventure game for the mouse, that they have to prevent themselves from touching the enemy mouse or else the player would ahve to restart the game again. After building the level, we have made the mouse to collect all the sprites to
 
 ### Skills
-Two skills that I have been learning at is Collaboration and Debugging. First, it was collaboration because it was during break, and me and my partner Angela had been working collaboratively and splitting up the work evenly through replit. When we had overcame an issue, we would have chat through messages and collabortively solve the issue together. This lead to debugging. Debugging is when me and my partner overcame this issue and was able to use `console.log()` to help me solve the issue.
+Two skills that I have been learning at is Collaboration and Debugging. First, it was collaboration because it was during break, and me and my partner Angela had been working collaboratively and splitting up the work evenly through replit. When we had overcame an issue, we would have chat through messages and collabortively solve the issue together. This lead to debugging. Debugging is when me and my partner overcame this issue and was able to use `console.log()` to help me solve the issue. For instance, it had helped me understand the syntax errors that I am missing when I open the console and it gave me a pathway to know where my mistake is and to solve this issue.
 
 [Previous](entry04.md) | [Next](entry06.md)
 
