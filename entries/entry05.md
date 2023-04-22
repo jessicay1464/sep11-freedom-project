@@ -33,7 +33,7 @@ player.collides('bread', (b) => {
     scoreLabel.text = score
 })
 ```
-We made the `add` property and stored it inside a variable, every time the mouse sprite collides with the bread sprite, I would have to add the score by one, and to change the score by making the `scoreLabel` to what is the current value of score.
+We were CLOSE!!! This time after learning inside based of the kaboom property, we made the `add` property and stored it inside a variable, and everytime the mouse sprite collides with the bread sprite, I would have to add the score by one, and to change the score by making the `scoreLabel` to what is the current value of score.
 
 ### How have we been finishing our MVP?
 
