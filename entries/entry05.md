@@ -2,7 +2,7 @@
 ##### 04/17/23
 
 ### How have I been learning my tool while building our MVP?
-Although we have spent a lot of time learning our tool, but there was still one part that I still went back to do and learn. This was figuring out how I can add the score every time, the mouse touches a sprite. At first, I started with the code 
+Although we have spent a lot of time learning our tool, but there was still some part that my partner, Angela and I have been stuck and don't have the solution to and had to do more research and tinkering to help the  still went back to do and learn. This was figuring out how I can add the score every time, the mouse touches a sprite. At first, I started with the code 
 ```js
 let var = 0;
 // initial value
@@ -39,28 +39,28 @@ We were CLOSE!!! This time after learning inside based of the kaboom property, w
 My partner and I have done a lot to make out MVP to work. At first, we used all the sprites that we have drawn in [pixelart](pixelart.com/draw) to help me build the scene that the player will be playing in. First, we converted all the sprites that are loaded to a symbol in the key board and then, we changed their sizes and position. to make sure that they are the exact size compared to the whole scene, because some sprites are in different pixels and we used the property `scale()` to help us. If the value inside scale is < 1, then it will be smaller, and if > 1, it will be bigger. We also used `solid()` and `area()` to help to make sure that they don't move when the player is playing, so in this part, we had make the bush and the table to remain constant and don't move. Next, we used the `addLevel` property to help us build the level that we want by placing the symbols that we have converyed to. So we started our code as 
 ```js
 const SPEED = 300
-  addLevel([
-            "                      ",
-            "xxxxxxx          %    ",
-            "x      x    xxxxxxxxxx",
-            "x       x!           x",
-            "x *      x    A      x",
-            "x ^ =     x          x",
-            "xxxxx      x   ^     x",
-            "x      @    xxxxxx   x",
-            "x              =     x",
-            "x      ^ =           x",
-            "xxxxxxxxxxxxxxxxxxxxxx",
-            ], {
-            width: 60,
-            height: 30,
-            "x": () => [
-                sprite("bush"),
-                scale(0.79),
-                solid(), 
-                area(),
-            ],
-            ...
+    addLevel([
+        "                      ",
+        "xxxxxxx          %    ",
+        "x      x    xxxxxxxxxx",
+        "x       x!           x",
+        "x *      x    A      x",
+        "x ^ =     x          x",
+        "xxxxx      x   ^     x",
+        "x      @    xxxxxx   x",
+        "x              =     x",
+        "x      ^ =           x",
+        "xxxxxxxxxxxxxxxxxxxxxx",
+        ], {
+        width: 60,
+        height: 30,
+        "x": () => [
+            sprite("bush"),
+            scale(0.79),
+            solid(), 
+            area(),
+        ],
+        ...
 ```
 Next, to make our game work, we had to make sure that the player had to collect all the ingredient to finish the game. So, we had to give an `if-statement` that if the number is the same as 3, that is also the number of ingredients that the this level has. This also means that if we don't have the score or the all the number of ingredients collected, then the player won't be able to open the door and go to the next level of the game. Or if all the user had collected all the ingredients, then the user will be able to go through the door.
 ```js
@@ -72,7 +72,22 @@ Next, to make our game work, we had to make sure that the player had to collect 
     }
     }) 
 ```
+Next, when this was all done, we were also to use the `go()` to help the user to go to the next scene. For instance, in the first level, they have to get all the sprites, and in the second level, there is a sprite in the beginning of the game. To make the game more interesting, we had make a sprite called "spike". if the user had touched the spike" it will bring the user to the next scene saying that "You have jumped on the spike" and when the user pressed backspace, then they will be restarting the second scene again.
+```js
+// when the sprite jump into a spike, it will say "You jumped into a spike"
+add ([
+    text("You jumped into a spike")
+])
 
+keyPress("backspace", () => {
+    go("win") //scene 2 (player restarts)
+})
+
+// if the sprite jumps into a spike, it will bring them to the scene to where they lose 
+player.collides ('dangerous', (q) => {
+    go('lose') // scene 3 (where the player loses)
+})
+```
 ### EDP
 Now, we are in Step 5, creating a prototype of the EDP, the Engineering Design Process. After we finished learning our tool, we have been starting to use what we learn based of out tool to build our MVP, the minimum viable product - a product that is the bare minimum for our final product to work. We build an adventure game for the mouse, that they have to prevent themselves from touching the enemy mouse or else the player would ahve to restart the game again. After building the level, we have made the mouse to collect all the sprites in order to go into the next scene.
 
