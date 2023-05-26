@@ -9,9 +9,9 @@ For my project, I am making X. This blog will walk through my process of indepen
 
 ## Links
 
-Product
+[Product](https://freedom-project-adventure.jessicay1464.repl.co)
 
-Presentation
+[Presentation](https://docs.google.com/presentation/d/1qWAJZ0HSZEKE1pYdl3ibgjXLEhHsqzs6QJ_AO9F9LzM/edit#slide=id.g243388383f6_0_2241)
 
 ## Implications
 X
