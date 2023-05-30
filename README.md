@@ -2,10 +2,10 @@
 by Jessica Yang
 
 ## Context
-The "Freedom Project" for SEP11 is all about using what we learn about Javascript and choose our game, in this case if Kaboom.js to help us create a game or any product that uses all what we learn. The purpose of this blog is to go through my process.
+The "Freedom Project" for SEP11 is all about using what we learn about Javascript and choose our game, in this case if Kaboom.js to help us create a game or any product that uses most content that we learn throughout the year and using the tools that we chose to assiat us making our game and product. The purpose of writing blogs is to jot down my process while doing each part of making my project. For instance, my challenges, my a-ha moments, or even some content that we learn.
 
 ## Content
-For my project, I am making X. This blog will walk through my process of independently studying X in order to make X.
+For creating my project, me and my partner Angela created a game that has a theme of adventure. This blog will walk through my process of independently studying my tool kaboom.js in order to make my adventure game, tinkering, and learning with my project, and so on.
 
 ## Links
 
