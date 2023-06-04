@@ -14,9 +14,9 @@ For creating my project, me and my partner Angela created a game that has a them
 [Presentation](https://docs.google.com/presentation/d/1qWAJZ0HSZEKE1pYdl3ibgjXLEhHsqzs6QJ_AO9F9LzM/edit#slide=id.g243388383f6_0_2241)
 
 ## Implications
-<b>Positives</b>
+<b>Positives</b><br>
 Some positives implications are the idea of building games in a career such as 3D adventure games, cartoon animation, animation character designer, game background designer, and many more. Also, individually, people can use games as a way of earning money and that they can have their career in games and major in playing games. At the same time, games can be a way to make your brain more active and to constantly move. In the century that we are now in, the 21st century, many peiple around the world are playing games, and this can help businesses' economies increase drastically. Also, in the social world, games are avaliable to be used as communiaction wiith one anotehr to build the relationship between people and make friends online. Lastly, government and laws help regulate the game productiona dn frameworks and that they are able to reserve the rights of making the game under the first amendment.<br>
-<b>Negative</b>
+<b>Negative</b><br>
 As the job rate increases, there is also a huge competition in competing over a certain job. Furthermore, as more people are more into playing games, they can get addicted to playing them and that they couldn't stop and this might affect their mental health and their personalities. In addition, as more poople are playing and applying into games due to the reason that games are getting more and more popular and more welcomed, it would lead to the other infrastructures and big systems to decrease as more and more people are applying to jobs that relate with games.
 
 ---
